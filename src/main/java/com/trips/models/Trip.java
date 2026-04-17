@@ -8,12 +8,14 @@ public class Trip {
 	private String nomTrip;
 	private String descripcion;
 	private double costo;
-	private int Calificacion;
+	private int calificacion;
 	private String imagen;
-	private String detalle;
+	private String detalles;
 	private boolean activo;
 	private Date fecha;
 	private Integer idCategoria;
+	private Integer destacado;
+	
 	
 	public Integer getId() {
 		return id;
@@ -40,10 +42,10 @@ public class Trip {
 		this.costo = costo;
 	}
 	public int getCalificacion() {
-		return Calificacion;
+		return calificacion;
 	}
 	public void setCalificacion(int calificacion) {
-		Calificacion = calificacion;
+		this.calificacion = calificacion;
 	}
 	public String getImagen() {
 		return imagen;
@@ -51,11 +53,11 @@ public class Trip {
 	public void setImagen(String imagen) {
 		this.imagen = imagen;
 	}
-	public String getDetalle() {
-		return detalle;
+	public String getDetalles() {
+		return detalles;
 	}
-	public void setDetalle(String detalle) {
-		this.detalle = detalle;
+	public void setDetalles(String detalles) {
+		this.detalles = detalles;
 	}
 	public boolean isActivo() {
 		return activo;
@@ -75,8 +77,13 @@ public class Trip {
 	public void setIdCategoria(Integer idCategoria) {
 		this.idCategoria = idCategoria;
 	}
+	public Integer getDestacado() {
+		return destacado;
+	}
+	public void setDestacado(Integer destacado) {
+		this.destacado = destacado;
+	}
 	
 	
-	
-
 }
+	
