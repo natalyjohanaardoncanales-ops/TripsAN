@@ -59,7 +59,6 @@ public class HomeController {
 	        trip1.setCosto(5.0);
 	        trip1.setDestacado(1);
 	        trip1.setImagen("trip01.png");
-	        
 
 	        Trip trip2 = new Trip();
 	        trip2.setId(2);
@@ -76,7 +75,7 @@ public class HomeController {
 	        trip3.setDescripcion("Disfrutar de un amplio jardin");
 	        trip3.setFecha(sdf.parse("10-05-2022"));
 	        trip3.setCosto(1.0);
-	        trip3.setDestacado(0); 
+	        trip3.setDestacado(0);
 	        trip3.setImagen("tirp03.png");
 
 	        Trip trip4 = new Trip();
