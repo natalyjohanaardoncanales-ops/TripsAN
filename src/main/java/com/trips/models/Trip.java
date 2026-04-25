@@ -17,6 +17,7 @@ public class Trip {
 	private Integer destacado;
 	
 	
+	
 	public Integer getId() {
 		return id;
 	}
